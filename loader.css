@@ -1,0 +1,37 @@
+/* ===== Catppuccin Mocha (Linux dark default vibe) ===== */
+@import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha.theme.css");
+
+/* Optional accent tweak (pick ONE, not multiple) */
+/* @import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-lavender.theme.css"); */
+/* @import url("https://catppuccin.github.io/discord/dist/catppuccin-mocha-sky.theme.css"); */
+
+/* ===== Font ===== */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-primary: "JetBrains Mono", monospace;
+  --font-display: "JetBrains Mono", monospace;
+}
+
+/* ===== Linux-style minimal transparency ===== */
+#app-mount {
+  background: transparent !important;
+}
+
+/* Main UI surface */
+.bg-1QIAus {
+  background: rgba(17, 17, 27, 0.75) !important; /* Catppuccin base */
+  backdrop-filter: blur(12px);
+}
+
+/* Sidebar + panels slightly darker (like KDE/Hyprland panels) */
+.sidebar-1tnWFu,
+.container-1NXEtd,
+.chatContent-3KubbW {
+  background: rgba(17, 17, 27, 0.55) !important;
+}
+
+/* Remove harsh borders for smooth Linux feel */
+* {
+  border-radius: 8px !important;
+}
