@@ -1,56 +1,56 @@
 & {
-  --brand-100: #{lighten($brand, 8%)};
-  --brand-130: #{lighten($brand, 6%)};
-  --brand-160: #{lighten($brand, 4%)};
-  --brand-200: #{lighten($brand, 3%)};
-  --brand-230: #{lighten($brand, 2%)};
-  --brand-260: #{lighten($brand, 1%)};
-  --brand-300: #{$brand};
-  --brand-330: #{darken($brand, 2%)};
-  --brand-360: #{darken($brand, 4%)};
-  --brand-400: #{darken($brand, 6%)};
-  --brand-430: #{darken($brand, 8%)};
-  --brand-460: #{darken($brand, 10%)};
-  --brand-500: #{$brand} !important;
-  --brand-530: #{darken($brand, 12%)};
-  --brand-560: #{darken($brand, 14%)};
-  --brand-600: #{darken($brand, 16%)};
-  --brand-630: #{darken($brand, 18%)};
-  --brand-660: #{darken($brand, 20%)};
-  --brand-700: #{darken($brand, 22%)};
-  --brand-730: #{darken($brand, 24%)};
-  --brand-760: #{darken($brand, 26%)};
-  --brand-800: #{darken($brand, 28%)};
-  --brand-830: #{darken($brand, 30%)};
-  --brand-860: #{darken($brand, 32%)};
-  --brand-900: #{darken($brand, 34%)};
+  --brand-100: #{lighten($blue, 35%)};
+  --brand-130: #{lighten($blue, 32%)};
+  --brand-160: #{lighten($blue, 28%)};
+  --brand-200: #{lighten($blue, 24%)};
+  --brand-230: #{lighten($blue, 20%)};
+  --brand-260: #{lighten($blue, 16%)};
+  --brand-300: #{lighten($blue, 12%)};
+  --brand-330: #{lighten($blue, 8%)};
+  --brand-360: #{lighten($blue, 4%)};
+  --brand-400: #{$blue};
+  --brand-430: #{darken($blue, 4%)};
+  --brand-460: #{darken($blue, 8%)};
+  --brand-500: #{$blue} !important;
+  --brand-530: #{darken($blue, 12%)};
+  --brand-560: #{darken($blue, 16%)};
+  --brand-600: #{darken($blue, 20%)};
+  --brand-630: #{darken($blue, 24%)};
+  --brand-660: #{darken($blue, 28%)};
+  --brand-700: #{darken($blue, 32%)};
+  --brand-730: #{darken($blue, 36%)};
+  --brand-760: #{darken($blue, 40%)};
+  --brand-800: #{darken($blue, 44%)};
+  --brand-830: #{darken($blue, 48%)};
+  --brand-860: #{darken($blue, 52%)};
+  --brand-900: #{darken($blue, 56%)};
 
-  --brand-05a: #{adjust-color($brand, $alpha: -0.95)};
-  --brand-10a: #{adjust-color($brand, $alpha: -0.9)};
-  --brand-15a: #{adjust-color($brand, $alpha: -0.85)};
-  --brand-20a: #{adjust-color($brand, $alpha: -0.8)};
-  --brand-25a: #{adjust-color($brand, $alpha: -0.75)};
-  --brand-30a: #{adjust-color($brand, $alpha: -0.7)};
-  --brand-35a: #{adjust-color($brand, $alpha: -0.65)};
-  --brand-40a: #{adjust-color($brand, $alpha: -0.6)};
-  --brand-45a: #{adjust-color($brand, $alpha: -0.55)};
-  --brand-50a: #{adjust-color($brand, $alpha: -0.5)};
-  --brand-55a: #{adjust-color($brand, $alpha: -0.45)};
-  --brand-60a: #{adjust-color($brand, $alpha: -0.4)};
-  --brand-65a: #{adjust-color($brand, $alpha: -0.35)};
-  --brand-70a: #{adjust-color($brand, $alpha: -0.3)};
-  --brand-75a: #{adjust-color($brand, $alpha: -0.25)};
-  --brand-80a: #{adjust-color($brand, $alpha: -0.2)};
-  --brand-85a: #{adjust-color($brand, $alpha: -0.15)};
-  --brand-90a: #{adjust-color($brand, $alpha: -0.1)};
-  --brand-95a: #{adjust-color($brand, $alpha: -0.05)};
+  --brand-05a: #{adjust-color($blue, $alpha: -0.95)};
+  --brand-10a: #{adjust-color($blue, $alpha: -0.9)};
+  --brand-15a: #{adjust-color($blue, $alpha: -0.85)};
+  --brand-20a: #{adjust-color($blue, $alpha: -0.8)};
+  --brand-25a: #{adjust-color($blue, $alpha: -0.75)};
+  --brand-30a: #{adjust-color($blue, $alpha: -0.7)};
+  --brand-35a: #{adjust-color($blue, $alpha: -0.65)};
+  --brand-40a: #{adjust-color($blue, $alpha: -0.6)};
+  --brand-45a: #{adjust-color($blue, $alpha: -0.55)};
+  --brand-50a: #{adjust-color($blue, $alpha: -0.5)};
+  --brand-55a: #{adjust-color($blue, $alpha: -0.45)};
+  --brand-60a: #{adjust-color($blue, $alpha: -0.4)};
+  --brand-65a: #{adjust-color($blue, $alpha: -0.35)};
+  --brand-70a: #{adjust-color($blue, $alpha: -0.3)};
+  --brand-75a: #{adjust-color($blue, $alpha: -0.25)};
+  --brand-80a: #{adjust-color($blue, $alpha: -0.2)};
+  --brand-85a: #{adjust-color($blue, $alpha: -0.15)};
+  --brand-90a: #{adjust-color($blue, $alpha: -0.1)};
+  --brand-95a: #{adjust-color($blue, $alpha: -0.05)};
 
-  --__header-bar-background: #{$mantle} !important;
+  --__header-bar-background: #{darken($base, 6%)} !important;
 
   --text-default: #{$text};
   --text-muted: #{$subtext0} !important;
-  --text-link: #{$blue} !important;
-  --text-brand: #{$brand};
+  --text-link: #{lighten($blue, 10%)} !important;
+  --text-brand: #{$blue};
   --text-strong: #{$text} !important;
   --text-subtle: #{$subtext1};
 
@@ -59,65 +59,95 @@
   --text-feedback-warning: #{$yellow};
   --text-feedback-info: #{$blue};
 
-  --message-reacted-background-default: #{adjust-color($brand, $alpha: -0.8)} !important;
-  --message-reacted-text-default: #{$brand};
+  --message-reacted-background-default: #{adjust-color($blue, $alpha: -0.7)} !important;
+  --message-reacted-text-default: #{$blue};
 
-  --opacity-blurple-8: #{adjust-color($brand, $alpha: -0.92)};
-  --opacity-blurple-16: #{adjust-color($brand, $alpha: -0.88)};
-  --opacity-blurple-24: #{adjust-color($brand, $alpha: -0.84)};
-  --opacity-blurple-32: #{adjust-color($brand, $alpha: -0.8)};
-  --opacity-blurple-60: #{adjust-color($brand, $alpha: -0.5)};
-  --blurple-50: #{$brand};
-  --blurple-60: #{darken($brand, 10%)};
+  --opacity-blurple-8: #{adjust-color($blue, $alpha: -0.92)};
+  --opacity-blurple-16: #{adjust-color($blue, $alpha: -0.84)};
+  --opacity-blurple-24: #{adjust-color($blue, $alpha: -0.76)};
+  --opacity-blurple-32: #{adjust-color($blue, $alpha: -0.68)};
+  --opacity-blurple-60: #{adjust-color($blue, $alpha: -0.4)};
+  --blurple-50: #{$blue};
+  --blurple-60: #{darken($blue, 10%)};
 
-  --app-frame-background: #{darken($crust, 3%)};
+  --app-frame-background: #{darken($crust, 4%)};
 
-  --background-secondary-alt: #{darken($base, 2%)} !important;
-  --background-accent: #{$surface1} !important;
-  --background-surface-highest: #{$surface0} !important;
-  --background-surface-higher: #{darken($surface0, 2%)} !important;
-  --background-surface-high: #{$base} !important;
+  --background-secondary-alt: #{darken($base, 3%)} !important;
+  --background-accent: #{lighten($surface1, 2%)} !important;
+  --background-surface-highest: #{$surface0};
+  --background-surface-higher: #{darken($surface0, 2%)};
+  --background-surface-high: #{$base};
 
-  --background-base-lowest: #{$crust} !important;
-  --background-base-lower: #{$mantle} !important;
-  --background-base-low: #{darken($base, 2%)} !important;
+  --background-base-lowest: #{$crust};
+  --background-base-lower: #{darken($mantle, 2%)};
+  --background-base-low: #{darken($base, 2%)};
+  --bg-surface-raised: #{$mantle};
+  --background-gradient-highest: #{darken($base, 4%)};
+  --home-background: #{darken($base, 2%)};
 
   --chat-background: #{$base};
   --chat-background-default: #{$base};
-
-  --chat-border: #{$crust};
+  --chat-border: #{darken($crust, 5%)};
   --chat-text-muted: #{$subtext0};
 
   --checkbox-icon-active: #{$crust};
   --checkbox-border-default: #{$overlay0};
 
-  --radio-thumb-background-active: #{$crust};
+  --radio-thumb-background-active: #{$blue};
 
-  --border-muted: #{$surface0};
-  --border-strong: #{$mantle};
+  --border-muted: #{darken($surface0, 5%)};
+  --border-strong: #{darken($mantle, 5%)};
   --border-normal: #{$crust};
   --border-subtle: #{$base} !important;
 
-  --background-mod-muted: #{adjust-color($surface2, $alpha: -0.9)};
+  --background-mod-muted: #{adjust-color($surface2, $alpha: -0.92)};
   --background-mod-normal: #{adjust-color($surface2, $alpha: -0.85)};
-  --background-mod-subtle: #{adjust-color($surface2, $alpha: -0.8)} !important;
-  --background-mod-strong: #{adjust-color($surface2, $alpha: -0.7)} !important;
+  --background-mod-subtle: #{adjust-color($surface2, $alpha: -0.75)} !important;
+  --background-mod-strong: #{adjust-color($surface2, $alpha: -0.55)} !important;
 
-  --background-feedback-positive: #{adjust-color($green, $alpha: -0.9)};
+  --custom-channel-members-bg: #{$mantle};
+  --custom-status-bubble-background: #{$crust} !important;
+  --custom-status-bubble-background-color: #{$mantle} !important;
+
+  --card-background-default: #{darken($surface0, 2%)} !important;
+
+  --background-feedback-positive: #{adjust-color($green, $alpha: -0.85)};
   --icon-feedback-positive: #{$green};
 
-  --background-feedback-warning: #{adjust-color($yellow, $alpha: -0.9)};
+  --background-feedback-warning: #{adjust-color($yellow, $alpha: -0.85)};
   --icon-feedback-warning: #{$yellow};
 
-  --background-feedback-critical: #{adjust-color($red, $alpha: -0.9)};
+  --background-feedback-critical: #{adjust-color($red, $alpha: -0.85)};
   --icon-feedback-critical: #{$red};
 
-  --background-feedback-info: #{adjust-color($sky, $alpha: -0.9)};
-  --icon-feedback-info: #{$sky};
+  --background-feedback-info: #{adjust-color($blue, $alpha: -0.85)};
+  --icon-feedback-info: #{$blue};
+
+  --background-feedback-notification: #{$blue};
+  --icon-feedback-notification: #{$blue};
+  --badge-notification-background: #{$blue};
 
   --status-positive: #{$green};
+  --status-positive-background: #{$green};
+  --status-positive-text: #{$base};
+
   --status-warning: #{$yellow};
+  --status-warning-background: #{$yellow};
+  --status-warning-text: #{$base};
+
   --status-danger: #{$red};
+
+  --black-500: #{$crust};
+
+  --green-360: #{$green};
+  --green-300: #{$green};
+  --yellow-360: #{$yellow};
+  --yellow-300: #{$yellow};
+  --red-400: #{$red};
+  --red-430: #{darken($red, 10%)};
+  --red-500: #{darken($red, 15%)};
+  --blue-500: #{darken($blue, 10%)};
+  --blue-530: #{darken($blue, 15%)};
 
   --primary-100: #{$subtext1};
   --primary-200: #{$subtext0};
@@ -130,35 +160,93 @@
   --white: #{$text};
   --white-500: #{$text};
 
-  --control-primary-background-default: #{$brand};
-  --control-primary-background-hover: #{darken($brand, 6%)};
-  --control-primary-background-active: #{darken($brand, 10%)};
+  --guild-boosting-pink: #{lighten($blue, 5%)};
+  --guild-boosting-blue: #{$blue};
+  --guild-boosting-purple: #{darken($blue, 5%)};
 
-  --control-secondary-background-default: #{$surface1} !important;
-  --control-secondary-background-hover: #{darken($surface1, 6%)};
-  --control-secondary-background-active: #{darken($surface1, 10%)};
+  --premium-perk-yellow: #{$yellow};
+  --premium-perk-purple: #{darken($blue, 8%)};
+  --premium-perk-dark-blue: #{darken($blue, 15%)};
+  --premium-perk-light-blue: #{lighten($blue, 10%)};
+  --premium-perk-blue: #{$blue};
+  --premium-perk-green: #{$green};
+  --premium-perk-pink: #{lighten($blue, 8%)};
+  --premium-perk-orange: #{darken($blue, 12%)};
+
+  --premium-tier-0-blue: #{$blue};
+  --premium-tier-0-purple: #{darken($blue, 6%)};
+
+  --premium-tier-1-blue-for-gradients: #{lighten($blue, 5%)};
+  --premium-tier-1-dark-blue-for-gradients: #{darken($blue, 10%)};
+
+  --premium-tier-2-purple-for-gradients: #{darken($blue, 18%)};
+  --premium-tier-2-purple-for-gradients-2: #{$blue};
+  --premium-tier-2-pink-for-gradients: #{lighten($blue, 10%)};
+
+  --control-primary-background-default: #{$blue};
+  --control-primary-background-hover: #{darken($blue, 8%)};
+  --control-primary-background-active: #{darken($blue, 15%)};
+
+  --control-secondary-background-default: #{darken($surface1, 3%)} !important;
+  --control-secondary-background-hover: #{darken($surface1, 8%)};
+  --control-secondary-background-active: #{darken($surface1, 12%)};
   --control-secondary-border-default: #{$surface0};
   --control-secondary-text-default: #{$text} !important;
+  --control-secondary-text-hover: #{$text};
 
-  --scrollbar-thin-thumb: #{$brand};
-  --scrollbar-auto-thumb: #{$brand};
+  --control-critical-primary-background-default: #{$red};
+
+  --modal-background: #{darken($base, 3%)} !important;
+  --modal-footer-background: #{darken($base, 2%)};
+
+  --scrollbar-thin-thumb: #{$blue};
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #{$blue};
   --scrollbar-auto-track: #{$crust};
+
+  --scrollbar-auto-scrollbar-color-thumb: #{$blue};
+  --scrollbar-auto-scrollbar-color-track: #{$crust};
 
   --input-background-default: #{$crust};
   --input-text-default: #{$text};
+  --input-placeholder-text-default: #{$subtext1};
   --input-border-default: #{$overlay0};
 
-  --mention-background: #{adjust-color($brand, $alpha: -0.75)};
+  --logo-primary: #{$blue};
 
-  --message-highlight-background-default: #{adjust-color($brand, $alpha: -0.92)};
-  --message-highlight-background-hover: #{adjust-color($brand, $alpha: -0.94)};
+  --control-brand-foreground: #{$blue};
+  --control-brand-foreground-new: #{$blue};
+  --mention-foreground: #{$blue};
+  --mention-background: #{adjust-color($blue, $alpha: -0.7)};
 
-  --interactive-background-hover: #{adjust-color($overlay2, $alpha: -0.9)};
-  --interactive-background-selected: #{adjust-color($overlay0, $alpha: -0.85)};
-  --interactive-background-active: #{adjust-color($text, $alpha: -0.85)};
+  --message-mentioned-background-default: #{adjust-color($yellow, $alpha: -0.9)};
+  --message-mentioned-background-hover: #{adjust-color($yellow, $alpha: -0.92)};
+  --message-background-hover: #{adjust-color($crust, $alpha: -0.7)} !important;
+
+  --background-code: #{$base};
+
+  --channels-default: #{darken($subtext0, 8%)} !important;
+  --channel-icon: #{darken($subtext0, 8%)} !important;
+
+  --icon-muted: #{darken($subtext0, 8%)} !important;
+  --icon-voice-muted: #{$red};
+  --icon-default: #{$text};
+
+  --textbox-markdown-syntax: #{$overlay0};
+
+  --spoiler-revealed-background: #{$surface0};
+  --spoiler-hidden-background: #{darken($surface2, 2%)};
+
+  --__adaptive-focus-ring-color: #{$blue};
 
   --interactive-icon-default: #{$text} !important;
   --interactive-text-default: #{$text} !important;
+
+  --interactive-background-hover: #{adjust-color($overlay2, $alpha: -0.85)};
+  --interactive-background-selected: #{adjust-color($overlay0, $alpha: -0.8)};
+  --interactive-background-active: #{adjust-color($text, $alpha: -0.83)};
+
+  --user-profile-overlay-background: #{$mantle};
 
   --text-status-online: #{$green};
   --text-status-idle: #{$yellow};
@@ -170,7 +258,9 @@
   --icon-status-dnd: #{$red};
   --icon-status-offline: #{$subtext1};
 
-  ::selection {
-    background-color: #{rgba($brand, 0.4)};
-  }
+  --spotify: #{$green};
+}
+
+::selection {
+  background-color: #{rgba($blue, 0.6)};
 }
